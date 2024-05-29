@@ -7,10 +7,10 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 
-export ilogin="kpires"
-export repo="git@vogsphere.42paris.fr:vogsphere/intra-uuid-7c33fc40-3c4e-46dc-94df-0d58cf2c1bd3-5294570-kpires"
+export ilogin="login"
+export repo="REPO"
 
-export workdir="/home/kpires/42"
+export workdir="/home/$ilogin/42"
 export subject="https://cdn.intra.42.fr/pdf/pdf/105472/fr.subject.pdf"
 
 #tester dir
